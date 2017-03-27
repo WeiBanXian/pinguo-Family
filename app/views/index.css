@@ -1,0 +1,272 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  background: #FFF;
+}
+
+.mainWrapper {
+  width: 100%;
+}
+
+.mainBlock {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.itemPic {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.itemBgPic {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.mainInfo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 20% auto;
+  width: 36%;
+  height: 100%;
+  text-align: center;
+}
+
+.leftMainInfo {
+  left: 0;
+  color: #333;
+}
+
+.rightMainInfo {
+  right: 0;
+  color: #333;
+}
+
+.itemIcon {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+.appName {
+  display: inline-block;
+  margin-top: 5%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.appDesc {
+  display: block;
+  margin-top: 5%;
+  font-size: 1.2em;
+  font-weight: 400;
+  word-wrap:break-word;
+  word-break:normal;
+}
+
+.whiteWord {
+  color: #FFF;
+}
+
+.downloadBtn {
+  display: inline-block;
+  margin-top: 5%;
+  padding: 7px 20px;
+  border-radius: 2px;
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+.c360Lite {
+  background: #fec953;
+}
+
+.bestie {
+  background: #fd6a9d;
+}
+
+.mix {
+  background: #1da1bd;
+}
+
+.april {
+  background: #f5b5dc;
+}
+
+.poker {
+  background: #2d2d2d;
+}
+
+.oopsfoto {
+  background: #a926fb;
+}
+
+.idcamera {
+  background: #ffa563;
+}
+
+.idcameraMain {
+  margin-top: 30px;
+}
+
+.smallsTitle {
+  margin-top: 10%;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.smallsTitleText:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: -40px;
+  width: 24px;
+  height: 0;
+  border-bottom: 1px solid #666;
+  background-color: #FFF;
+}
+
+.smallsTitleText:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: -40px;
+  width: 24px;
+  height: 0;
+  border-bottom: 1px solid #666;
+  background-color: #FFF;
+}
+
+.smallsTitleText {
+  position: relative;
+  color: #666;
+  font-size: 20px;
+  line-height: 80px;
+}
+
+#closeBtn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border-bottom-left-radius: 100px;
+  background: #FFF;
+  z-index: 999;
+  zoom: 0.5;
+}
+
+.debugBlock {
+  display: none;
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+}
+
+.block {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  /*height: 190px;*/
+  /*background: rgba(255,255,255,0.3);*/
+  /*background: #AAA;*/
+}
+
+.adSymbol {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #EFEFEF;
+  font-size: 12px;
+  z-index: 99;
+}
+
+.bgPic {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.descrip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 52%;
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  color: #FFF;
+  font-size: 1.8em;
+  line-height: 1.8em;
+  font-weight: bold;
+  text-shadow: 0 0 4px #333;
+}
+
+.des {
+  margin: auto;
+  width: 90%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #FFF;
+  -webkit-box-orient: vertical;
+  vertical-align: middle;
+  text-shadow: 0 0 4px #333;
+}
+
+.btnDoneText {
+  /*display: block;*/
+  margin: auto;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  color: #EEE;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  background: #4499FC;
+  text-shadow: 0 0 1px #333;
+  /*box-shadow: 0 0 1px 1px #FFF inset;*/
+  box-shadow: 0 0 5px 0 #666;
+}

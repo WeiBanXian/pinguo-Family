@@ -1,0 +1,110 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  background: #EFEDEF;
+}
+
+#closeBtn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border-bottom-left-radius: 100px;
+  background: #FFF;
+  z-index: 999;
+  zoom: 0.5;
+}
+
+.debugBlock {
+  display: none;
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+}
+
+.block {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  /*height: 190px;*/
+  /*background: rgba(255,255,255,0.3);*/
+  background: #AAA;
+}
+
+.adSymbol {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #EFEFEF;
+  font-size: 12px;
+  z-index: 99;
+}
+
+.bgPic {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.descrip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 52%;
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  color: #FFF;
+  font-size: 1.8em;
+  line-height: 1.8em;
+  font-weight: bold;
+  text-shadow: 0 0 4px #333;
+}
+
+.des {
+  margin: auto;
+  width: 90%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #FFF;
+  -webkit-box-orient: vertical;
+  vertical-align: middle;
+  text-shadow: 0 0 4px #333;
+}
+
+.btnDoneText {
+  /*display: block;*/
+  margin: auto;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  color: #EEE;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  background: #4499FC;
+  text-shadow: 0 0 1px #333;
+  /*box-shadow: 0 0 1px 1px #FFF inset;*/
+  box-shadow: 0 0 5px 0 #666;
+}
